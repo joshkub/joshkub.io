@@ -10,7 +10,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 ul {
     list-style-type: circle;
-    li {margin-left: 43px;}
+    p {
+        background-color: khaki;
+        font-family:'Times New Roman', Times, serif
+    }
 }
 
-            
+ol {
+    p {
+        font-family: monospace
+    }
+}
+
+href {
+    text-decoration: underline;
+    
+}
