@@ -1,6 +1,7 @@
 body {
-    color: #404040; 
+    color: #181717; 
     font-family: Arial;
+    background-color:lavenderblush;
     
 }
 h1, h2, h3, h4, h5, h6 {
@@ -9,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 ul {
-    list-style-type: circle;
+    list-style-image: url('pie_bullet.png') ;
     p {
         background-color: khaki;
         font-family:'Times New Roman', Times, serif
@@ -22,7 +23,8 @@ ol {
     }
 }
 
-href {
-    text-decoration: underline;
-    
+a {
+    color:#A4A400;
 }
+
+li {list-style-image: url('pie_bullet.png')}
